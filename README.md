@@ -1,5 +1,3 @@
-Absolutely — here's a clean, professional, and engaging `README.md` tailored for your `mlff-tutorial` repository. It introduces the purpose, highlights the technologies, and sets a tone suitable for a portfolio:
-
 ---
 
 # 🧠⚛️ `mlff-tutorial`

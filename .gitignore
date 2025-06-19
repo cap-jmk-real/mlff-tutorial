@@ -200,3 +200,4 @@ cython_debug/
 *.xyz
 *.dat
 *methanol_aimd_data/
+psi4env.yml

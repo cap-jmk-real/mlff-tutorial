@@ -40,11 +40,7 @@ cd mlff-tutorial
 
 2. **Install dependencies**
 
-We recommend using a virtual environment (e.g., `conda`, `venv`) and Python 3.10+.
-
-```bash
-pip install -r requirements.txt
-```
+It is recommmended to use `conda` to manage environments. Each tutorial introduces you how to best setup an environment for that tutorial. It can't be guaranteed that all environments work for all tutorials. 
 
 3. **Run your first tutorial**
 

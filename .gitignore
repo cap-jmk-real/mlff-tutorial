@@ -196,3 +196,7 @@ cython_debug/
 *.pdb 
 *.sdf
 *.dcd
+*clean 
+*.xyz
+*.dat
+*methanol_aimd_data/

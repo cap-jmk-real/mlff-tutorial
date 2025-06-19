@@ -201,3 +201,4 @@ cython_debug/
 *.dat
 *methanol_aimd_data/
 psi4env.yml
+*.png

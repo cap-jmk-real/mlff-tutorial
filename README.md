@@ -49,6 +49,14 @@ jupyter lab notebooks/
 ```
 
 
+## 📚 Related research (methods paper)
+
+Companion **private** repository for methods work that extends these tutorials toward electrochemical reaction sampling with MLFFs at AIMD-level accuracy (arbitrary mixtures, MLFF MD stability, training-data generation):
+
+- **[cap-jmk-real/aimd-mlff-methods](https://github.com/cap-jmk-real/aimd-mlff-methods)** — manuscript (`paper/`), experiments, and thin `src/` wiring that **depends on this repo** rather than copying tutorial code. Also uses [mond](https://github.com/cap-jmk-real/mond) and [openmm-mixtures](https://github.com/cap-jmk-real/openmm-mixtures).
+
+---
+
 ## 🤝 Collaboration
 
 This project is part of my scientific portfolio.

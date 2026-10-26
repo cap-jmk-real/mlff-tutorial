@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mond"
+version = "0.2.6"
+description = "Monte Carlo and MD utilities (mlff-tutorial vendored fork with AIMD unit fix)"
+readme = "mond/README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "amarium",
+    "applique",
+    "cryptography",
+    "numpy",
+    "scipy",
+    "tqdm",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "ase"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mond*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

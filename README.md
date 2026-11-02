@@ -40,7 +40,15 @@ cd mlff-tutorial
 
 2. **Install dependencies**
 
-It is recommmended to use `conda` to manage environments. Each tutorial introduces you how to best setup an environment for that tutorial. It can't be guaranteed that all environments work for all tutorials. 
+It is recommmended to use `conda` to manage environments. Each tutorial introduces you how to best setup an environment for that tutorial. It can't be guaranteed that all environments work for all tutorials.
+
+For AIMD tutorials (notebook 02+), install the **vendored `mond` package from this repo** so mass/force units in `velocity_verlet_step` match Psi4/ASE (eV, eV/Å):
+
+```bash
+pip install -e .
+```
+
+Unit conventions and dataset regeneration notes: `docs/UNITS.md`. 
 
 3. **Run your first tutorial**
 
